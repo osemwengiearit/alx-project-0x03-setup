@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
-import type { PageRouteProps } from '@/interface';
 import Button from '@/components/common/Button';
+import { PageRouteProps } from '@/interface';
 
 export default function Home() {
   const router = useRouter();
